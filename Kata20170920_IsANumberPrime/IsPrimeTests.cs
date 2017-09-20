@@ -42,6 +42,12 @@ namespace Kata20170920_IsANumberPrime
             IsPrimeShouldBeFalse(4);
         }
 
+        [TestMethod]
+        public void Input_n1_should_return_false()
+        {
+            IsPrimeShouldBeFalse(-1);
+        }
+
         private static void IsPrimeShouldBeFalse(int n)
         {
             var kata = new Kata();
@@ -60,6 +66,8 @@ namespace Kata20170920_IsANumberPrime
     {
         public bool IsPrime(int n)
         {
+            n = n < 0 ? -n : n;
+
             if (n == 0 || n == 1)
             {
                 return false;
