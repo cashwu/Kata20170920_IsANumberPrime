@@ -71,7 +71,7 @@ namespace Kata20170920_IsANumberPrime
                 return false;
             }
 
-            for (var i = 2; i < n - 1; i++)
+            for (var i = 2; i <= n / 2; i++)
             {
                 if (n % i == 0)
                 {
