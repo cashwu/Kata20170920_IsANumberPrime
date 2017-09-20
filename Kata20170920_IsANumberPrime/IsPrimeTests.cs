@@ -66,9 +66,7 @@ namespace Kata20170920_IsANumberPrime
     {
         public bool IsPrime(int n)
         {
-            n = n < 0 ? -n : n;
-
-            if (n == 0 || n == 1)
+            if (n <= 1)
             {
                 return false;
             }
