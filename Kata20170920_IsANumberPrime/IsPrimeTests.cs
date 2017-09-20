@@ -15,7 +15,7 @@ namespace Kata20170920_IsANumberPrime
         [TestMethod]
         public void Input_2_should_return_true()
         {
-            IsPrimeShouldBeTrue(0);
+            IsPrimeShouldBeTrue(2);
         }
 
         private static void IsPrimeShouldBeFalse(int n)
