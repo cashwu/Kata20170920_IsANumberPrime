@@ -12,11 +12,23 @@ namespace Kata20170920_IsANumberPrime
             IsPrimeShouldBeFalse(0);
         }
 
+        [TestMethod]
+        public void Input_2_should_return_true()
+        {
+            IsPrimeShouldBeTrue(0);
+        }
+
         private static void IsPrimeShouldBeFalse(int n)
         {
             var kata = new Kata();
             var actual = kata.IsPrime(n);
             Assert.IsFalse(actual);
+        }
+        private static void IsPrimeShouldBeTrue(int n)
+        {
+            var kata = new Kata();
+            var actual = kata.IsPrime(n);
+            Assert.IsTrue(actual);
         }
     }
 
@@ -24,6 +36,11 @@ namespace Kata20170920_IsANumberPrime
     {
         public bool IsPrime(int n)
         {
+            if (n == 2)
+            {
+                return true;
+            }
+
             return false;
         }
     }
