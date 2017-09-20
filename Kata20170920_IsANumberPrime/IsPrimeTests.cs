@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Kata20170920_IsANumberPrime
@@ -71,7 +72,7 @@ namespace Kata20170920_IsANumberPrime
                 return false;
             }
 
-            for (var i = 2; i <= n / 2; i++)
+            for (var i = 2; i <= Math.Sqrt(n); i++)
             {
                 if (n % i == 0)
                 {
