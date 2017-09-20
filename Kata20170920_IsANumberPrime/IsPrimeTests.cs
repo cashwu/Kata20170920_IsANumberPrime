@@ -48,12 +48,20 @@ namespace Kata20170920_IsANumberPrime
     {
         public bool IsPrime(int n)
         {
-            if (n == 2 || n == 3 || n == 5)
+            if (n == 0)
             {
-                return true;
+                return false;
             }
 
-            return false;
+            for (var i = 2; i < n - 1; i++)
+            {
+                if (n % i == 0)
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
