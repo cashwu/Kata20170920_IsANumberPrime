@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26906.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata20170920_IsANumberPrime", "Kata20170920_IsANumberPrime\Kata20170920_IsANumberPrime.csproj", "{3C6B6310-4AA3-4E6B-A953-787E44E78E7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C6B6310-4AA3-4E6B-A953-787E44E78E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C6B6310-4AA3-4E6B-A953-787E44E78E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C6B6310-4AA3-4E6B-A953-787E44E78E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C6B6310-4AA3-4E6B-A953-787E44E78E7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DEE2044A-3DD9-46AB-9ECD-82D279344377}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 4e643f7a-cc1a-47d7-9183-5ac3842a638b
+	EndGlobalSection
+EndGlobal
